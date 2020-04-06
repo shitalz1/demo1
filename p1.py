@@ -1,16 +1,8 @@
-#Python program to print Even Numbers in a List 
+num1 = 15
+num2 = 12
   
-#list of numbers 
-list1 = [10, 21, 4, 45, 66, 93] 
-num = 0
+# Adding two nos 
+sum = num1 + num2 
   
-#using while loop         
-while(num < len(list1)): 
-      
-    #checking condition 
-    if num % 2 == 0: 
-       print(list1[num], end = " ") 
-      
-    #increment num   
-    num += 1
-     
+# printing values 
+print("Sum of {0} and {1} is {2}" .format(num1, num2, sum)) 
